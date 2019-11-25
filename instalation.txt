@@ -1,0 +1,11 @@
+1. composer install
+2. npm install
+3. set the database credentials in .env
+4. php artisan migrate
+5. php artisan db:seed --class=AccountsTableSeeder
+6. php artisan serve
+
+1. Add deposit - http://localhost:8000/depozit
+2. Start report - http://localhost:8000/report/create
+3. Show reports - http://localhost:8000/report
+
