@@ -1,0 +1,7 @@
+1. php artisan migrate
+2. cp .env.example .env
+3. php artisan migrate
+4. npm install
+5. composer install
+6. mysql -u <mysql-username> -p create database depozit_system;
+7. composer create-project --prefer-dist laravel/laravel depozit_system "5.5.*"
